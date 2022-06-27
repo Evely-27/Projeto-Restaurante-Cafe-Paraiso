@@ -39,3 +39,27 @@ p{
 em strong {
     color: #003300;
 }
+
+.servicos {
+    background-color:#ffffff;
+    padding: 3px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 10%;
+}
+
+.item {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.imagem-servicos {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0% 10%;
+}
