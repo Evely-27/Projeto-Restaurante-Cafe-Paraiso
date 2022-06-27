@@ -1,0 +1,29 @@
+/* trabalhando com espaçamento, medidas:
+margin: distancia dos elementos ao redor
+border: distancia a borda do proprio elemento
+padding:  distancia dentro do elemento
+mesmo comando */
+/* forma individual */
+.selector {
+    margin-top: 10px; /* distancia do bloco acima  */
+    margin-right: 15px; /* distancia do bloo para a direita  */
+    margin-bottom: 20px; /* distancia do bloco para baixo  */
+    margin-left: 25px; /* distancia do bloco para a esquerda  */
+}
+
+/* forma abreviada */
+.selectorUnico {
+    /* aplica em todas as direções */
+    padding: 10px; 
+    /* padding: distancie dentro */
+}
+
+.selectorDuplo {
+    /* aplica na Vertical | horizontal respectivamente */
+    padding: 20px 10px;
+}
+
+.selectorQuadruplo {
+    /* aplica em cada direção de forma individual . começando em top e seguindo sentido horario */
+    padding:  5px 10px 15px 20px;
+}
