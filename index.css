@@ -75,31 +75,42 @@ nav a:hover {
 
 /* SOBRE --------------------------------------------------------------*/
 
-
 .conteudo-principal {
     background-color: #ff8000;
+    color: white;
     padding: 30px;
+    margin-top: 0;
 }
 
 .titulo-centralizado {
     text-align: center;
 }
+.titulo-secao {
+    border-bottom: 1px lightgray dashed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    margin-bottom: 16px;
+    padding: 16px;
+}
 
 p{
     text-align: justify;
+    font-size: 20px;
 }
 #missao {
     background-color: #ffbf00;
     border-radius: 5px;
     box-shadow: 1px 1px 15px #003300;
+    color: #000;
     font-size: 20px;
     margin: 20px auto;
     padding: 15px;
     text-align: center;
-    width: 50%;
+    width: 70%;
 }
 em strong {
     color: #003300;
+    font-style: italic;
 }
 
 
@@ -114,7 +125,11 @@ ul {
     display: inline-block;
     vertical-align: top;
     width: 30%;
-    margin-right: 10%;
+    margin-right: 19.5%;
+}
+li {
+    list-style: outside;
+    margin-left: 20px;
 }
 
 .item {
