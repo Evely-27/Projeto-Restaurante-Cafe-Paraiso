@@ -5,18 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Restaurante</title>
-    <link rel="stylesheet" href="index.css" type="text/css" /> <!-- referenciando folha de estilo -->
     <link rel="stylesheet" href="/study/reset.css" type="text/css" /> <!-- referenciando folha de resetação de estilos pre-definidos -->
+    <link rel="stylesheet" href="index.css" type="text/css" /> <!-- referenciando folha de estilo -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> <!-- importando  lib  Font Awesome.  -->
 
 </head>
     <body>
         <!-- Cabeçalho da página -->
-        <header>
-            <h1 class="titulo-principal"> <!-- vinculando a class para css -->
-                Restaurante Café Paraiso
-            </h1>
+        <header class="cabecalho">
+            <div class="container">
+                <h1 class="titulo-principal"> <!-- vinculando a class para css -->
+                    <i class="fas fa-seedling"></i>
+                    Restaurante Café Paraiso
+                </h1>
+                <!-- adicionando navegação pelo header -->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>   
         </header>
+
         <img id="banner" src="/assets/banner.jpg" alt="imagem interior de um restaurante." width="500" />
+        
         <section class="conteudo-principal">
             <h2 class="titulo-centralizado">
                 Sobre o Restaurante Café Paraiso

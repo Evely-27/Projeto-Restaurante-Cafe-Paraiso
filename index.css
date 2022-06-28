@@ -1,11 +1,70 @@
-/* classe titulo principal para header */
+/* HEADER */
+/* classe titulo principal para header --------------------------------------*/
+.cabecalho {
+    background-color: #ff0000;
+    padding: 30px;
+    height: 140px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+    position: relative;             /* Faz a acamada de container ser referencia para  o position absolue de nav, auxiliando o posicionamento dentro da div */
+    /* background-color: #ffbf00; */
+
+}
 
 .titulo-principal {
+    color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20;
+    font-size: 40px;
     font-weight: bold;
-    margin-left: 20px;  /* va para a esqurda 20px */
+    /* margin-left: 20px;  va para a esqurda 20px */
+    margin-top: 50px;
+    transition: all .5s ease-in-out;
 }
+
+.titulo-principal:hover {
+    transform: translateX(50px) scale(1.2);
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 50%;
+}
+
+nav ul {
+    /* remove alguns espaços em branco entre li */
+    font-size: 0;
+    width: 100%;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    border-radius: 2px #fff solid;
+    padding: 8px 0;
+}
+nav li:last-child {
+    border-right: 0;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform:uppercase;
+    padding: 8px 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: #ff8000;
+}
+/* BANNER --------------------------------------------------------------*/
 
 #banner {
     height: 550px; /* altura */
@@ -13,6 +72,9 @@
     object-fit: cover;
     object-position: 0% 70%;
 }
+
+/* SOBRE --------------------------------------------------------------*/
+
 
 .conteudo-principal {
     background-color: #ff8000;
@@ -39,6 +101,9 @@ p{
 em strong {
     color: #003300;
 }
+
+
+/* SERVIÇOS --------------------------------------------------------------*/
 
 .servicos {
     background-color:#ffffff;
