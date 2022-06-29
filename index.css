@@ -30,9 +30,11 @@
 
 nav {
     position: absolute;
-    top: 20px;
+    top: 40px;
     right: 0;
     width: 50%;
+    /* background-color: #1e00ff; */
+
 }
 
 nav ul {
@@ -142,4 +144,22 @@ li {
     height: 300px;
     object-fit: cover;
     object-position: 0% 10%;
+}
+
+footer{
+    background-color: #ff0000;
+    padding: 30px;
+    height: 40px;
+}
+
+.copyright {
+    color: white;
+    font: 18px Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.copyright span {
+    color: red;
+    font-size: 22px;
 }
