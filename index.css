@@ -1,7 +1,7 @@
 /* HEADER */
 /* classe titulo principal para header --------------------------------------*/
 .cabecalho {
-    background-color: #ff0000;
+    background-color: #FF8C00;
     padding: 30px;
     height: 140px;
 }
@@ -10,7 +10,7 @@
     margin: 0 auto;
     width: 940px;
     position: relative;             /* Faz a acamada de container ser referencia para  o position absolue de nav, auxiliando o posicionamento dentro da div */
-    /* background-color: #ffbf00; */
+    /* background-color: #d731d7 */
 
 }
 
@@ -64,7 +64,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
-    background-color: #ff8000;
+    background-color: #708090;
 }
 /* BANNER --------------------------------------------------------------*/
 
@@ -78,7 +78,7 @@ nav a:hover {
 /* SOBRE --------------------------------------------------------------*/
 
 .conteudo-principal {
-    background-color: #ff8000;
+    background-color: #e59443;
     color: white;
     padding: 30px;
     margin-top: 0;
@@ -148,9 +148,10 @@ li {
 /* RODAPÉ --------------------------------------------------------------*/
 
 footer{
-    background-color: #ff0000;
+    background-color: #FF8C00;
     padding: 30px;
     height: 40px;
+    /* margin-bottom: 0; */
 }
 
 .copyright {
@@ -186,4 +187,54 @@ footer{
 }
 .foto img:hover {
     transform: scale(1.5) rotate(10deg);
+}
+/* Contatos --------------------------------------------------------------*/
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #26522d;
+    font: 18px Arial, Helvetica, sans-serif;
+    padding: 8px 0;
+}
+input, textarea {
+    border-radius: 4px;
+    font: 16px Arial, Helvetica, sans-serif;
+    padding: 8px 16px;
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+}
+
+::placeholder {
+    color: #FF0000;
+    opacity: 0.5;
+}
+
+button {
+    align-self: flex-end;
+    background: linear-gradient(to right bottom, #FF8C00,#FF6347 );
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font:18px Arial, Helvetica, sans-serif;
+    margin: 12px 0;
+    padding: 12px 16px;
+    width: 200px;
+    /* margin-bottom: 87px; */
+}
+
+button:hover {
+    background: rgba(255, 99, 71, 0.8);
+}
+
+button i {
+    margin: 0 5px 0 -5px;
 }
