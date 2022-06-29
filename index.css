@@ -143,8 +143,9 @@ li {
     width: 50%;
     height: 300px;
     object-fit: cover;
-    object-position: 0% 10%;
+    object-position: 0% 50%;
 }
+/* RODAPÉ --------------------------------------------------------------*/
 
 footer{
     background-color: #ff0000;
@@ -162,4 +163,27 @@ footer{
 .copyright span {
     color: red;
     font-size: 22px;
+}
+/* GALERIA --------------------------------------------------------------*/
+.linha-fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+}
+
+.foto {
+    border: 2px lightgray solid;
+    padding: 8px;
+}
+.foto img {
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+}
+.foto img:hover {
+    transform: scale(1.5) rotate(10deg);
 }
